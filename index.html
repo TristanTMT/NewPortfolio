@@ -30,7 +30,7 @@
                     <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
                     <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
                     <li class="nav__item"><a href="#works" class="nav__link">Works</a></li>
-                    <li class="nav__item"><a href="#services" class="nav__link">Education</a></li>
+                    <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
                     <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
                 </ul>
             </div>
@@ -62,17 +62,17 @@
         
         <!-- ABOUT -->
         <section class="about section" id="about">
-            <span class="section-subtitle">My intro</span>
+            <span class="section-subtitle">Intro</span>
             <h2 class="section-title">A propos de moi</h2>
 
             <div class="about__container bd-grid">
                 <div class="about__data">
                     <p class="about__description">Autodidacte, le monde numérique m'a bercé depuis mon enfance. Passionné de jeux vidéo, geek, la programmation me plaît dans son coté monter de niveau pour avancer.</p>
-                    <img src="" alt="" class="about__img">
+                    <img src="#" alt="" class="about__img">
                 </div>
 
                 <div class="about__information">
-                    <h3 class="about__information-title">Information</h3>
+                    <h3 class="about__information-title">Informations</h3>
                     
                     <div class="about__information-data">
                         <i class='bx bx-user about__information-icon'></i>
@@ -91,12 +91,12 @@
                 </div>
 
                 <div class="about__information">
-                    <h3 class="about__information-title">Expérience</h3>
+                    <h3 class="about__information-title">Expériences</h3>
 
                     <div class="about__information-data">
                         <i class='bx bx-medal about__information-icon'></i>
                         <div>
-                            <span class="about__information-subtitle">5 years Job</span>
+                            <span class="about__information-subtitle">Reconversion professionnelle</span>
                             <span class="about__information-subtitle-small">Experience</span>
                         </div>
                     </div>
@@ -110,19 +110,27 @@
                     </div>
 
                     <div class="about__information-data">
+                        <i class='bx bx-football about__information-icon'></i>
+                        <div>
+                            <span class="about__information-subtitle">Éducateur Bénévole</span>
+                            <span class="about__information-subtitle-small">École de foot</span>
+                        </div>
+                    </div>
+
+                    <!-- <div class="about__information-data">
                         <i class='bx bx-support about__information-icon'></i>
                         <div>
                             <span class="about__information-subtitle">Support</span>
                             <span class="about__information-subtitle-small">Online 24/7</span>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
 
         <!-- SKILLS -->
         <section class="skills section" id="skills">
-            <span class="section-subtitle">Why choose me</span>
+            <span class="section-subtitle">Technos</span>
             <h2 class="section-title">Mes langages</h2>
 
             <div class="skills__container bd-grid">
@@ -131,25 +139,25 @@
 
                     <div class="skills__data">
                         <span class="skills__name">HTML/CSS</span>
-                        <span class="skills__number">80%</span>
+                        <span class="skills__number"></span>
                         <span class="skills__bar skills__html"></span>
                     </div>
 
                     <div class="skills__data">
                         <span class="skills__name">JavaScript</span>
-                        <span class="skills__number">80%</span>
+                        <span class="skills__number"></span>
                         <span class="skills__bar skills__js"></span>
                     </div>
 
                     <div class="skills__data">
-                        <span class="skills__name">ReactJS</span>
-                        <span class="skills__number">80%</span>
+                        <span class="skills__name">React JS</span>
+                        <span class="skills__number"></span>
                         <span class="skills__bar skills__html"></span>
                     </div>
 
                     <div class="skills__data">
-                        <span class="skills__name">VueJS</span>
-                        <span class="skills__number">80%</span>
+                        <span class="skills__name">Vue JS</span>
+                        <span class="skills__number"></span>
                         <span class="skills__bar skills__html"></span>
                     </div>
                 </div>
@@ -159,27 +167,27 @@
 
                     <div class="skills__data">
                         <span class="skills__name">Node JS</span>
-                        <span class="skills__number">80%</span>
+                        <span class="skills__number"></span>
                         <span class="skills__bar skills__node"></span>
                     </div>
 
                     <div class="skills__data">
                         <span class="skills__name">SQL</span>
-                        <span class="skills__number">80%</span>
+                        <span class="skills__number"></span>
                         <span class="skills__bar skills__sql"></span>
                     </div>
 
                     <div class="skills__data">
                         <span class="skills__name">MongoDB</span>
-                        <span class="skills__number">80%</span>
+                        <span class="skills__number"></span>
                         <span class="skills__bar skills__mongodb"></span>
                     </div>
 
-                    <div class="skills__data">
+                    <!-- <div class="skills__data">
                         <span class="skills__name">Python</span>
-                        <span class="skills__number">60%</span>
+                        <span class="skills__number"></span>
                         <span class="skills__bar skills__python"></span>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
@@ -189,74 +197,92 @@
             <span class="section-subtitle">Mon portfolio</span>
             <h2 class="section-title">Travaux récents</h2>
 
-            <div class="works__container bd-grid">
-                <div class="works__img">
-                    <img src="./images/1.jpg" alt="Image portfolio">
-
-                    <div class="works__data">
-                        <div class="works__social">
-                            <a href="" class="works__link"><i class='bx bx-link' ></i></a>
-                            <a href="https://github.com/TristanTMT" class="works__social-link"><i class='bx bxl-github' ></i></a>
+            <div class="works__grid">
+                <div class="works__container bd-grid">
+                    <div class="works__img">
+                        <img src="./images/1.jpg" alt="Image portfolio">
+    
+                        <div class="works__data">
+                            <div class="works__social">
+                                <a href="https://tristantmt.github.io/TristanTienMiTiee_2_23092020/" class="works__link" target="_blank"><i class='bx bx-link' ></i></a>
+                                <a href="https://github.com/TristanTMT/TristanTienMiTiee_2_23092020" class="works__social-link" target="_blank"><i class='bx bxl-github' ></i></a>
+                            </div>
+                            <span class="works__title">Transformer une maquette en site Web</span>
                         </div>
-                        <span class="works__title">Transformer une maquette en site Web</span>
+                    </div>
+                </div>
+    
+                <div class="works__container bd-grid">
+                    <div class="works__img">
+                        <img src="./images/2.jpg" alt="Image portfolio">
+    
+                        <div class="works__data">
+                            <div class="works__social">
+                                <a href="https://github.com/TristanTMT/TristanTienMiTiee_3_16112020" class="works__link" target="_blank"><i class='bx bx-link' target="_blank" ></i></a>
+                                <a href="https://tristantmt.github.io/TristanTienMiTiee_3_16112020/" class="works__social-link" target="_blank"><i class='bx bxl-github' target="_blank" ></i></a>
+                            </div>
+                            <span class="works__title">Dynamiser un site en utilisant les effets CSS</span>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="works__container bd-grid">
+                    <div class="works__img">
+                        <img src="./images/3.jpg" alt="Image portfolio">
+    
+                        <div class="works__data">
+                            <div class="works__social">
+                                <a href="https://lachouetteagencetristantmt.netlify.app/" class="works__link"><i class='bx bx-link' target="_blank" ></i></a>
+                                <a href="https://github.com/TristanTMT/TristanTienMiTiee_P4_11122020" class="works__social-link"><i class='bx bxl-github' target="_blank" ></i></a>
+                            </div>
+                            <span class="works__title">Optimiser le SEO d'un site web</span>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="works__container bd-grid">
+                    <div class="works__img">
+                        <img src="./images/4.jpg" alt="Image portfolio">
+    
+                        <div class="works__data">
+                            <div class="works__social">
+                                <a href="https://tristantmt.github.io/diaporama-ville-pays/" class="works__link"><i class='bx bx-link' target="_blank" ></i></a>
+                                <a href="https://github.com/TristanTMT/diaporama-ville-pays" class="works__social-link"><i class='bx bxl-github' target="_blank" ></i></a>
+                            </div>
+                            <span class="works__title">Diaporama ville - pays</span>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="works__container bd-grid">
+                    <div class="works__img">
+                        <img src="./images/5.jpg" alt="Image portfolio">
+    
+                        <div class="works__data">
+                            <div class="works__social">
+                                <a href="https://tristantmt.github.io/check_email/" class="works__link"><i class='bx bx-link' target="_blank" ></i></a>
+                                <a href="https://github.com/TristanTMT/check_email" class="works__social-link"><i class='bx bxl-github' target="_blank" ></i></a>
+                            </div>
+                            <span class="works__title">Check E-Mail</span>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="works__container bd-grid">
+                    <div class="works__img">
+                        <img src="./images/6.jpg" alt="Image portfolio">
+    
+                        <div class="works__data">
+                            <div class="works__social">
+                                <a href="" class="works__link"><i class='bx bx-link' target="_blank" ></i></a>
+                                <a href="#" class="works__social-link"><i class='bx bxl-github' target="_blank" ></i></a>
+                            </div>
+                            <span class="works__title">Créer un réseau social (EN COURS)</span>
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <div class="works__container bd-grid">
-                <div class="works__img">
-                    <img src="./images/2.jpg" alt="Image portfolio">
-
-                    <div class="works__data">
-                        <a href="" class="works__link"><i class='bx bx-link' ></i></a>
-                        <span class="works__title">Dynamiser un site en utilisant les effets CSS</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="works__container bd-grid">
-                <div class="works__img">
-                    <img src="./images/3.jpg" alt="Image portfolio">
-
-                    <div class="works__data">
-                        <a href="" class="works__link"><i class='bx bx-link' ></i></a>
-                        <span class="works__title">Optimiser le SEO d'un site web</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="works__container bd-grid">
-                <div class="works__img">
-                    <img src="./images/4.jpg" alt="Image portfolio">
-
-                    <div class="works__data">
-                        <a href="" class="works__link"><i class='bx bx-link' ></i></a>
-                        <span class="works__title">Work 4</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="works__container bd-grid">
-                <div class="works__img">
-                    <img src="./images/5.jpg" alt="Image portfolio">
-
-                    <div class="works__data">
-                        <a href="" class="works__link"><i class='bx bx-link' ></i></a>
-                        <span class="works__title">Work 1</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="works__container bd-grid">
-                <div class="works__img">
-                    <img src="./images/6.jpg" alt="Image portfolio">
-
-                    <div class="works__data">
-                        <a href="" class="works__link"><i class='bx bx-link' ></i></a>
-                        <span class="works__title">Créer un réseau social (EN COURS)</span>
-                    </div>
-                </div>
-            </div>
+            
         </section>
 
         <!-- EDUCATION -->
@@ -267,8 +293,8 @@
             <div class="education__container bd-grid">
                 <div class="education__content">
                     <div>
-                        <h3 class="education__year">2011</h3>
-                        <span class="education__university">Lycée Vue-Belle</span>
+                        <h3 class="education__year">2020</h3>
+                        <span class="education__university">Openclassrooms</span>
                     </div>
 
                     <div class="education__time">
@@ -277,15 +303,15 @@
                     </div>
 
                     <div>
-                        <h3 class="education__race">Diploma Developer</h3>
-                        <span class="education__speciality">FrontEnd</span>
+                        <h3 class="education__race">Développeur Web</h3>
+                        <span class="education__speciality">RNCP niveau 5 (Bac+2)</span>
                     </div>
                 </div>
 
                 <div class="education__content">
                     <div>
-                        <h3 class="education__year">2011</h3>
-                        <span class="education__university">Lycée Vue-Belle</span>
+                        <h3 class="education__year">2018</h3>
+                        <span class="education__university">Lycée Jasmin Coiffure</span>
                     </div>
 
                     <div class="education__time">
@@ -294,15 +320,15 @@
                     </div>
 
                     <div>
-                        <h3 class="education__race">Diploma Developer</h3>
-                        <span class="education__speciality">FrontEnd</span>
+                        <h3 class="education__race">Mention complémentaire</h3>
+                        <span class="education__speciality">Coupe, Couleur, Coiffure</span>
                     </div>
                 </div>
 
                 <div class="education__content">
                     <div>
-                        <h3 class="education__year">2011</h3>
-                        <span class="education__university">Lycée Vue-Belle</span>
+                        <h3 class="education__year">2016</h3>
+                        <span class="education__university">Jasmin Coiffure</span>
                     </div>
 
                     <div class="education__time">
@@ -311,8 +337,8 @@
                     </div>
 
                     <div>
-                        <h3 class="education__race">Diploma Developer</h3>
-                        <span class="education__speciality">FrontEnd</span>
+                        <h3 class="education__race">Coiffure</h3>
+                        <span class="education__speciality">CAP Coiffure</span>
                     </div>
                 </div>
             </div>
@@ -327,9 +353,9 @@
                 <p class="footer__description">Site personnel</p>
 
                 <div class="footer__social">
-                    <a href="#" class="footer__link"><i class='bx bxl-linkedin' ></i></a>
-                    <a href="#" class="footer__link"><i class='bx bxl-github' ></i></a>
-                    <a href="#" class="footer__link"><i class='bx bxl-twitter' ></i></a>
+                    <a href="https://www.linkedin.com/in/tristan-tien-mi-tiee-52a65a1aa/" class="footer__link"><i class='bx bxl-linkedin' ></i></a>
+                    <a href="https://github.com/TristanTMT" class="footer__link"><i class='bx bxl-github' ></i></a>
+                    <a href="twitter.com/tiee_mi" class="footer__link"><i class='bx bxl-twitter' ></i></a>
                 </div>
             </div>
         </footer>

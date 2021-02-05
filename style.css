@@ -21,12 +21,12 @@
 
     /* FONT AND TYPOGRAPHY */
     --body-font: 'Poppins', sans-serif;
-    --h1-font-size: 1.5rem;
-    --h2-font-size: 1.25rem;
-    --h3-font-size: 1rem;
-    --normal-font-size: 0.900rem;
-    --small-font-size: 0.800rem;
-    --smaller-font-size: 0.700rem;
+    --h1-font-size: 1.25rem;
+    --h2-font-size: 1rem;
+    --h3-font-size: .75rem;
+    --normal-font-size: 0.800rem;
+    --small-font-size: 0.700rem;
+    --smaller-font-size: 0.650rem;
 
     /* MARGIN */
     --mb-1: .5rem;
@@ -96,7 +96,7 @@ img{
 
 /* CLASS CSS */
 .section{
-    padding: 4rem 0 2rem;
+    padding: 3rem 0 1rem;
 }
 
 .section-title{
@@ -282,7 +282,7 @@ img{
 
 /* ABOUT */
 .about__container{
-    row-gap: 2rem;
+    row-gap: 1rem;
 }
 
 .about__data{
@@ -333,7 +333,7 @@ img{
 
 /* SKILLS */
 .skills__container{
-    row-gap: 2rem;
+    row-gap: 1rem;
 }
 
 .skills__subtitle{
@@ -368,7 +368,7 @@ img{
 /* WORKS */
 .works__container{
     justify-content: center;
-    row-gap: 2rem;
+    row-gap: 1rem;
     margin-bottom: 3rem;
 }
 
@@ -435,7 +435,7 @@ img{
 
 /* EDUCATION */
 .education__container{
-    row-gap: 2rem;
+    row-gap: 1rem;
 }
 
 .education__content{
@@ -520,6 +520,51 @@ img{
 .footer__link:hover{
     background-color: var(--first-color-lighten);
     color: var(--first-color);
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 768px){
+    .home__button{
+        width: initial;
+    }
+
+    .nav__menu{
+        width: var(--nav-width);
+    }
+
+    .skills__container{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .works__grid{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (min-width: 1440px){
+    body{
+        padding-left: var(--nav-width);
+    }
+    .l-header{
+        width: 0;
+    }
+
+    .nav__toggle, .nav__logo, .nav__close{
+        display: none;
+    }
+
+    .nav__menu{
+        left: 0;
+    }
+    .bd-grid{
+        max-width: none;
+    }
+
+    .works__grid{
+        grid-template-columns: repeat(3,1fr);
+    }
 }
 
 /* === 39 MINUTES 30 https://www.youtube.com/watch?v=owEHlDn0JYQ === */
